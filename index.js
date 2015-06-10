@@ -20,11 +20,11 @@ function exec (cmd) {
 
 var ok = true
 
-logVerbose('checking dependencies')
+logVerbose('Checking dependencies')
 ok = ok && exec('sanitycheck' + (flags.verbose ? ' --verbose' : ''))
 
-logVerbose('checking style')
+logVerbose('Checking style')
 ok = ok && exec('standard')
 
-logVerbose(ok ? 'ok' : 'errors found')
+logVerbose(ok ? 'OK' : 'Errors found')
 exit(ok ? 0 : 1)

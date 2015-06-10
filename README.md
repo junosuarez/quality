@@ -14,6 +14,32 @@ add to your package.json:
   }
 ```
 
+### standalone cli
+
+```
+$ quality
+```
+
+will run all quality checks for the module in the current directory.
+
+`quality --verbose` will tell you more about what's going on as it's running:
+
+```
+$ quality --verbose
+Checking dependencies
+Checking for unused or missing dependencies in package.json...
+Validating duplicate packages...
+OK
+Validating all require statements...
+
+OK
+Checking style
+OK
+```
+
+`quality` exists with a `1` error code if problems are found and a `0` if everything is ok, so you
+can easily combine it with other tools in shell scripts.
+
 ## checks
 
 `quality` is the easiest way to add best-of linting and quality checking to your package
