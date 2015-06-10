@@ -1,7 +1,7 @@
 {
   "name": "quality",
   "author": "jden <jason@denizac.org>",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "zero configuration code and module linting",
   "keywords": [
     "lint",
