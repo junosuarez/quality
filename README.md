@@ -2,7 +2,8 @@
 zero configuration code and module linting
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
+[![Dependency Status](https://david-dm.org/jden/quality.svg)](https://david-dm.org/jden/quality)
+[![Circle CI](https://circleci.com/gh/jden/quality.svg?style=svg)](https://circleci.com/gh/jden/quality)
 
 ## installation & usage
 
