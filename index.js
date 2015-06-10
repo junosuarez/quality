@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 
+var path = require('path')
 var sh = require('shelljs')
 var exit = sh.exit
 
@@ -15,7 +16,9 @@ function logVerbose (msg) {
 }
 
 function exec (cmd) {
-  return sh.exec(cmd).code === 0
+  var args = cmd.split(' ')
+  args[0] = path.resolve(__dirname, 'node_modules/.bin/', args[0])
+  return sh.exec(args.join(' ')).code === 0
 }
 
 var ok = true
