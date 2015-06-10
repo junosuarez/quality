@@ -2,8 +2,9 @@
 zero configuration code and module linting
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![quality tested](https://img.shields.io/badge/quality-tested-brightgreen.svg)](https://github.com/jden/quality)
 [![Dependency Status](https://david-dm.org/jden/quality.svg)](https://david-dm.org/jden/quality)
-[![Circle CI](https://circleci.com/gh/jden/quality.svg?style=svg)](https://circleci.com/gh/jden/quality)
+[![Circle CI](https://img.shields.io/circleci/project/jden/quality.svg)](https://circleci.com/gh/jden/quality)
 
 ## installation & usage
 
@@ -13,6 +14,16 @@ add to your package.json:
     "test": "quality && <test runner>"
   }
 ```
+
+## badge
+Add to your readme so people can see your commitment to quality at a glance
+
+[![quality tested](https://img.shields.io/badge/quality-tested-brightgreen.svg)](https://github.com/jden/quality)
+
+```md
+[![quality tested](https://img.shields.io/badge/quality-tested-brightgreen.svg)](https://github.com/jden/quality)
+```
+
 
 ### standalone cli
 
