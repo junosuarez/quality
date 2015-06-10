@@ -8,6 +8,10 @@ zero configuration code and module linting
 
 ## installation & usage
 
+```sh
+$ npm install -save-dev quality
+```
+
 add to your package.json:
 ```json
   "scripts": {
